@@ -1,0 +1,14 @@
+{
+  "small": {
+    "price": 3,
+    "multiplier": 1
+  },
+  "normal": {
+    "price": 5,
+    "multiplier": 1.2
+  },
+  "familiar": {
+    "price": 7,
+    "multiplier": 1.5
+  }
+}

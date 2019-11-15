@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="left-side">
+        <div id="preconfigurates"></div>
+        <div id="custom">
+          <select id="selectSizes"> </select>
+          <p id="sizesText"></p>
+          <select id="selectSauces" hidden></select>
+          <p id="saucesText"></p>
+          <table id="ingredients" hidden>
+            <thead>
+              <tr>
+                <th>Ingredient</th>
+                <th>price</th>
+                <th>multiplier</th>
+                <th>price X multiplier</th>
+                <th>add/delete</th>
+              </tr>
+            </thead>
+            <tbody id="ingredientsInfo"></tbody>
+          </table>
+          <div>
+            <p id="customPrice"></p>
+            <input type="button" value="add Pizza" id="buttonAdd" hidden />
+          </div>
+        </div>
+      </div>
+      <div id="cart">
+        <div id="pizzaList"></div>
+        <p id="totalPrice"></p>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="../models/pizza.js"></script>
+  <script type="text/javascript" src="../view/preconf.js"></script>
+  <script type="text/javascript" src="../view/custom.js"></script>
+  <script type="text/javascript" src="../view/cart.js"></script>
+  <script type="text/javascript" src="../services/cartService.js"></script>
+  <script type="text/javascript" src="../controller/controller.js"></script>
+  <script type="text/javascript" src="../app.js"></script>
+</html>

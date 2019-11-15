@@ -1,0 +1,20 @@
+[
+  {
+    "name": "margarita",
+    "base": "normal",
+    "sauce": "tomato",
+    "ingredients": ["cheese", "york", "olives"]
+  },
+  {
+    "name": "barbacue",
+    "base": "normal",
+    "sauce": "tomato",
+    "ingredients": ["cheese", "york", "olives"]
+  },
+  {
+    "name": "prosciutto",
+    "base": "normal",
+    "sauce": "tomato",
+    "ingredients": ["cheese", "york", "olives"]
+  }
+]
